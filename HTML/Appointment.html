@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tiaano</title>
+  <link rel="stylesheet" type="text/css" href="C:\Users\Dell\Desktop\web development\HTML-PERSONNEL SITE\CSS\Appointment.css" />
+  <style media="screen">
+    body {
+      background-color: #1ab394;
+      text-align: center;
+    }
+
+    h1 {
+      background-color: #1ab394;
+      font-size: 80px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    div.align {
+      align-items: center;
+      display: inline-block;
+      padding: 25px 70px 25px;
+      margin: 100px auto 100px auto;
+      width: 75%;
+    }
+
+    div.gallery {
+      display: inline-block;
+      float: left;
+      margin: 25px 50px;
+      width: 350px;
+      position: relative;
+    }
+
+    .image {
+      opacity: 1;
+      display: inline-block;
+      transition: .5s ease;
+      border-radius: 50%;
+      backface-visibility: hidden;
+    }
+
+
+
+    div.desc {
+      padding: 15px;
+      text-align: left;
+      background-color: #f4f7f8;
+    }
+
+    div.gallery:hover .image {
+      opacity: 0.3;
+    }
+
+    div.gallery:hover .middle {
+      opacity: 1;
+    }
+
+    a.text1 {
+      text-decoration: none;
+    }
+
+    a.btn {
+      background-color: #4CAF50;
+      border: 1px solid #FFF;
+      border-width: 1px 1px 3px;
+      border-radius: 5px;
+      box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
+      color: #FFF;
+      font-size: 18px;
+      font-style: normal;
+      width: 150px;
+      height: 100px;
+      margin:10px auto 10px;
+      padding: 16px 32px;
+      text-align: center;
+      text-decoration: none;
+    }
+
+    .middle {
+      transition: .3s ease;
+      opacity: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%)
+    }
+
+    .text {
+      background-color: #4CAF50;
+      color: white;
+      font-size: 16px;
+      padding: 16px 32px;
+    }
+  </style>
+
+</head>
+
+<body>
+  <div>
+    <img src="https://www.msmemart.com/upload/memberprofiles/158563257421624867.png" alt="tianno" style="float:right;width:200px;height:50px">
+  </div>
+  <br><br>
+  <div>
+    <h1>Create a <b>Meeting</b></h1>
+    <h2>with us and get your doubts calrified.....</h2>
+  </div>
+  <div class="align">
+
+    <div class="gallery">
+      <img id="myImg" src="image\admin.png" alt="Profile_Pic" style="width:100%">
+      <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01">
+        <div id="caption"></div>
+      </div>
+
+      <div class="middle">
+        <a class="text1" href="C:\Users\Dell\Desktop\web development\HTML-PERSONNEL SITE\HTML\Basic Details.html" target="_self">
+          <div class="text"><b>Fix meeting</b></div>
+        </a>
+      </div>
+      <div class="desc"><b>Name:</b><br><b>Year of Exp:</b><br>
+        <b>Projects Handling:</b>
+      </div>
+    </div>
+
+
+    <div class="gallery">
+
+      <img id="myImg1" src="C:\Users\Dell\Desktop\web development\HTML-PERSONNEL SITE\HTML\image\admin.png" alt="Profile_Pic" style="width:100%">
+
+      <!-- The Modal -->
+      <div id="myModal1" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img02">
+        <div id="caption1"></div>
+      </div>
+
+
+      <div class="middle">
+        <a class="text1" href="C:\Users\Dell\Desktop\web development\HTML-PERSONNEL SITE\HTML\Basic Details.html" target="_self">
+          <div class="text"><b>Fix meeting</b></div>
+        </a>
+      </div>
+      <div class="desc"><b>Name:</b><br><b>Year of Exp:</b><br>
+        <b>Projects Handling:</b>
+      </div>
+    </div>
+
+    <div class="gallery">
+
+      <img id="myImg2" src="C:\Users\Dell\Desktop\web development\HTML-PERSONNEL SITE\HTML\image\admin.png" alt="Profile_Pic" style="width:100%">
+
+      <!-- The Modal -->
+      <div id="myModal2" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img03">
+        <div id="caption2"></div>
+      </div>
+
+
+      <div class="middle">
+        <a class="text1" href="C:\Users\Dell\Desktop\web development\HTML-PERSONNEL SITE\HTML\Basic Details.html" target="_self">
+          <div class="text"><b>Fix meeting</b></div>
+        </a>
+      </div>
+      <div class="desc"><b>Name:</b><br><b>Year of Exp:</b><br>
+        <b>Projects Handling:</b>
+      </div>
+    </div>
+
+    <div class="gallery">
+
+      <img id="myImg3" src="C:\Users\Dell\Desktop\web development\HTML-PERSONNEL SITE\HTML\image\admin.png" alt="Profile_Pic" style="width:100%">
+
+      <!-- The Modal -->
+      <div id="myModal3" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img04">
+        <div id="caption3"></div>
+      </div>
+
+
+      <div class="middle">
+        <a class="text1" href="C:\Users\Dell\Desktop\web development\HTML-PERSONNEL SITE\HTML\Basic Details.html" target="_self">
+          <div class="text"><b>Fix meeting</b></div>
+        </a>
+      </div>
+      <div class="desc"><b>Name:</b><br><b>Year of Exp:</b><br>
+        <b>Projects Handling:</b>
+      </div>
+    </div>
+
+    <div class="gallery">
+
+      <img id="myImg4" src="C:\Users\Dell\Desktop\web development\HTML-PERSONNEL SITE\HTML\image\admin.png" alt="Profile_Pic" style="width:100%">
+
+      <!-- The Modal -->
+      <div id="myModal4" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img05">
+        <div id="caption4"></div>
+      </div>
+
+
+      <div class="middle">
+        <a class="text1" href="C:\Users\Dell\Desktop\web development\HTML-PERSONNEL SITE\HTML\Basic Details.html" target="_self">
+          <div class="text"><b>Fix meeting</b></div>
+        </a>
+      </div>
+      <div class="desc"><b>Name:</b><br><b>Year of Exp:</b><br>
+        <b>Projects Handling:</b>
+      </div>
+    </div>
+
+    <div class="gallery">
+
+      <img id="myImg5" src="C:\Users\Dell\Desktop\web development\HTML-PERSONNEL SITE\HTML\image\admin.png" alt="Profile_Pic" style="width:100%">
+
+      <!-- The Modal -->
+      <div id="myModal5" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img06">
+        <div id="caption5"></div>
+      </div>
+
+
+      <div class="middle">
+        <a class="text1" href="C:\Users\Dell\Desktop\web development\HTML-PERSONNEL SITE\HTML\Basic Details.html" target="_self">
+          <div class="text"><b>Fix meeting</b></div>
+        </a>
+      </div>
+      <div class="desc"><b>Name:</b><br><b>Year of Exp:</b><br>
+        <b>Projects Handling:</b>
+      </div>
+    </div>
+  </div>
+
+  <div>
+    <a class="btn" href="C:\Users\Dell\Desktop\web development\HTML-PERSONNEL SITE\HTML\index.html" target="_self">
+      <b><i>Back</i></b>
+    </a>
+  </div>
+
+<script>
+    // Get the modal
+    var modal = document.getElementById("myModal");
+
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var img = document.getElementById("myImg");
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+    img.onclick = function() {
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+
+    // Get the modal
+    var modal = document.getElementById("myModal1");
+
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var img = document.getElementById("myImg1");
+    var modalImg = document.getElementById("img02");
+    var captionText = document.getElementById("caption1");
+    img.onclick = function() {
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+
+    // Get the modal
+    var modal = document.getElementById("myModal2");
+
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var img = document.getElementById("myImg2");
+    var modalImg = document.getElementById("img03");
+    var captionText = document.getElementById("caption2");
+    img.onclick = function() {
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+
+    // Get the modal
+    var modal = document.getElementById("myModal3");
+
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var img = document.getElementById("myImg3");
+    var modalImg = document.getElementById("img04");
+    var captionText = document.getElementById("caption3");
+    img.onclick = function() {
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+
+    // Get the modal
+    var modal = document.getElementById("myModal4");
+
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var img = document.getElementById("myImg4");
+    var modalImg = document.getElementById("img05");
+    var captionText = document.getElementById("caption4");
+    img.onclick = function() {
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+
+    // Get the modal
+    var modal = document.getElementById("myModal5");
+
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var img = document.getElementById("myImg5");
+    var modalImg = document.getElementById("img06");
+    var captionText = document.getElementById("caption5");
+    img.onclick = function() {
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+
+
+    // Get the <span> element that closes the modal
+    for (var i=0;i<document.getElementsByClassName("close").length;i++){
+      var span = document.getElementsByClassName("close") [i];
+    }
+
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+  </script>
+</body>
+
+</html>

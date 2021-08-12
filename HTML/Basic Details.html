@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Request Appointment</title>
+  <link rel="stylesheet" type="text/css" href="C:\Users\Dell\Desktop\web development\HTML-PERSONNEL SITE\CSS\Basic_Details.css" />
+</head>
+
+<body>
+    <!--This is a division tag for body container-->
+    <div id="body_header">
+      <!--This is a division tag for body header-->
+      <h1>Appointment Request Form</h1>
+      <p>Make your appointments more easier</p>
+
+    </div>
+    <form action="" method="post" >
+      <fieldset>
+        <legend><span class="number">1</span>Your basic details</legend>
+        <label for="name">Name*:</label>
+        <input type="text" id="name" name="user_name" placeholder="Enter Your Full Name" required>
+
+        <label for="mail">Email*:</label>
+        <input type="email" id="mail" name="user_email" placeholder="Enter your e-mail address" required>
+
+        <label for="tele">Contact Number*:</label>
+        <input type="text" id="tele" name="user_num" placeholder="Phone Number" required pattern="[\d]{10}">
+
+        <label for="Company_name">Company/Organization name:</label>
+        <input type="text" id="Company_name" name="Company_name"  pattern="[a-zA-Z]+">
+
+        <label for="Address">Address:</label>
+        <textarea name="message" rows="5" cols="40"></textarea>
+
+      </fieldset>
+
+      <fieldset>
+        <legend><span class="number">2</span>Appointment Details</legend>
+        <label for="appointment_for">Appointment for*:</label>
+        <select id="appointment_for" name="appointment_for" required>
+          <option value="meeting">Meeting</option>
+          <option value="Business">Business</option>
+        </select>
+        <label for="appointment_description">Appointment Description:</label>
+        <textarea id="appointment_description" name="appointment_description" placeholder="I wish to get an appointment to get for...."></textarea>
+        <label for="Meeting">Prefered way of Meeting:</label>
+        <select id="Meeting" name="Meeting" required>
+          <option value="Phone">Phone</option>
+          <option value="zoom_Meet">Zoom Meeting</option>
+        </select>
+        <label for="date">Date*:</label>
+        <input type="date" name="date" value="" placeholder="dd-mm-yyy" required></input>
+        <br>
+        <label for="time">Time*:</label>
+        <input type="time" name="time" value=""  required></input>
+        <br>
+        <label for="services">I would like to be notified about promotional services:</label>
+        <input type="radio" name="services" value="Yes" checked> Yes
+        <input type="radio" name="services" value="No"> No
+        <br> <br><br>
+        <label for="facility">Have you previously availed our facility:</label>
+        <input type="radio" name="facility" value="Yes"> Yes
+        <input type="radio" name="facility" value="No" checked> No
+      </fieldset>
+       <button type="submit"><b>Request For Appointment</b></button>
+       <br><br>
+       <a class="btn" href="C:\Users\Dell\Desktop\web development\HTML-PERSONNEL SITE\HTML\Appointment.html" target="_self">
+         <b>Back</b>
+       </a>
+       <br><br><br>
+       </form>
+
+    </div>
+</body>
+
+</html>
